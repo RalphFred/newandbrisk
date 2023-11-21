@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'handlee': ['Handlee', 'cursive'],
+        'labrada': ['Labrada', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
