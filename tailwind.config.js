@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'green': '#7ba11f',
+      },
+      backgroundColor: {
+        'green': '#7ba11f',
+      },
       fontFamily: {
         'handlee': ['Handlee', 'cursive'],
         'labrada': ['Labrada', 'serif'],

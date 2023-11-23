@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
-import Home from './pages/Home'
-import About from './pages/About'
-import Gallery from './pages/Gallery'
-import Pricing from './pages/Pricing'
-import Contact from './pages/Contact'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import GalleryPage from './pages/GalleryPage'
+import PricingPage from './pages/PricingPage'
+import ContactPage from './pages/ContactPage'
 
 export default function App(){
   return(
@@ -13,11 +13,11 @@ export default function App(){
        <Navbar />
 
        <Routes>
-        <Route exact path="/" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="gallery" element={<Gallery />}/>
-        <Route path="/pricing" element={<Pricing />}/>
-        <Route path="/contact" element={<Contact />}/>
+        <Route exact path="/" element={<HomePage />}/>
+        <Route path="/about" element={<AboutPage />}/>
+        <Route path="gallery" element={<GalleryPage />}/>
+        <Route path="/pricing" element={<PricingPage />}/>
+        <Route path="/contact" element={<ContactPage />}/>
        </Routes>
     </BrowserRouter>
   )

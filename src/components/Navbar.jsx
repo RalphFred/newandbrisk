@@ -2,9 +2,9 @@ import logo from '../assets/logo.png'
 
 export default function NavBar() {
   return(
-    <nav className="lg:px-20 py-4 flex justify-between items-center border-b">
+    <nav className="lg:px-20 py-4 h-[100px] flex justify-between items-center border-b">
       <div>
-        <img src={logo} alt="logo" className="w-24"/>
+        <img src={logo} alt="logo" className="w-16"/>
       </div>
       <ul className='flex font-handlee font-bold text-xl'>
         <li className="py-2 mr-5 ">Home</li>
