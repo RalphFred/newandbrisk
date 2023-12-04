@@ -4,7 +4,7 @@ import HomeGallery from '../components/HomeGallery'
 
 export default function HomePage() {
   return(
-    <div className="px-20">
+    <div className="">
       <Hero />
       <AboutIntro />
     </div>
