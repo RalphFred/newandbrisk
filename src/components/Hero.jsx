@@ -20,8 +20,8 @@ export default function Hero() {
 
         </div>
       </div>
-      <div className='w-1/2 '>
-        {/* <img src={img} alt="img" className='w-full h-[500px]'/> */}
+      <div className='w-1/2 p-12'>
+        <img src={img} alt="img" className='w-full h-[500px]'/>
       </div>
     </div>
   );
