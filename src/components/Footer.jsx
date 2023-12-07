@@ -7,7 +7,7 @@ import twitter from "../assets/twitter.svg";
 
 export default function Footer() {
   return (
-    <div className="bg-cream px-8 pb-10 lg:px-20 lg:pb-12">
+    <div className="bg-cream px-8 py-10 lg:px-20 lg:py-16">
       <div className="flex flex-col lg:flex-row justify-between lg:mb-8">
         <div className="pb-8">
           <img src={Logo} alt="logo" className="w-16 lg:w-24" />
