@@ -29,8 +29,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="lg:h-[calc(100vh-100px)] bg-cream flex flex-col lg:flex-row px-8 lg:px-32 lg:pt-12">
-      <div className="w-full lg:w-2/5 pb-16 lg:pb-0">
+    <div className="lg:h-[100vh] pt-[112px] bg-cream flex flex-col lg:flex-row px-8 lg:px-32">
+      <div className="w-full lg:w-2/5 pb-12 lg:pb-0">
         <h1 className="text-5xl font-labrada font-semibold mb-4 lg:mb-8">Contact Us</h1>
         <p className="text-lg lg:text-xl font-handlee mb-6">
         If you have any questions or comments, please contact us via email, social media or send us a message using the contact form. 
@@ -45,7 +45,7 @@ export default function ContactForm() {
           <p>+234-701-2345-678</p>
         </div>
       </div>
-      <div className="w-full lg:w-3/5 pb-16 lg:pl-12">
+      <div className="w-full lg:w-3/5 pb-8 lg:pl-12">
         <form onSubmit={handleSubmit(onSubmit)}>
           <Input
             id="fullName"
@@ -61,7 +61,7 @@ export default function ContactForm() {
             register={{ ...register("email") }}
             errorMessage={errors.fullName?.message}
           />
-          <div className="flex flex-col font-handlee mb-8">
+          <div className="flex flex-col font-handlee ">
             <label className="font-bold text-xl mb-1">Message</label>
             <textarea
               id="message"
@@ -71,7 +71,7 @@ export default function ContactForm() {
             <span>{errors.message?.message}</span>
           </div>
 
-          <input type="submit" value="SUBMIT" className="w-full bg-green py-4 text-white font-handlee font-bold text-xl rounded-lg"/>
+          <input type="submit" value="SUBMIT" className="w-full bg-green mt-12 py-4 text-white font-handlee font-bold text-xl rounded-lg"/>
         </form>
       </div>
     </div>

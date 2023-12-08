@@ -2,7 +2,7 @@ import {services} from "../data";
 
 export default function Pricing() {
   return (
-    <div className="px-8 lg:px-20 bg-cream">
+    <div className="pt-[112px] px-8 lg:px-32 bg-cream border-none">
       <h1 className="font-labrada font-bold text-5xl mb-4">Our Services</h1>
       <p className="text-xl font-handlee lg:w-2/3">
         Here at New and Brisk Culinary, we take pride in offering a

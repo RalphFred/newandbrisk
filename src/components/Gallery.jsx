@@ -1,6 +1,6 @@
 export default function Gallery() {
   return (
-    <div className="px-8 py-8 lg:px-32 bg-cream lg:pb-12">
+    <div className="px-8 pt-[112px] pb-8 lg:px-32 bg-cream lg:pb-12">
       <h1 className="font-labrada text-5xl font-bold  mb-8">Gallery</h1>
       <div className="hidden lg:grid grid-cols-5 grid-rows-6 grid-flow-row gap-3 h-screen">
         <div className="bg-blue-500 row-span-2" id="1"></div>
