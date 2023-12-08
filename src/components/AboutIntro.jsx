@@ -3,7 +3,7 @@ import rarrow from "../assets/rarrow.svg";
 
 export default function AboutIntro() {
   return (
-    <div className="relative flex items-center justify-end px-24 h-screen bg-cream">
+    <div className="relative -z-10 flex items-center justify-end px-24 h-screen bg-cream">
       <div className="w-[600px] backdrop-blur-lg py-12 px-8 absolute top-1/2 left-[7rem] transform  -translate-y-1/2 shadow-xl">
         <h1 className="text-5xl font-labrada font-semibold">About Us</h1>
         <p className="font-handlee text-xl mt-8">
