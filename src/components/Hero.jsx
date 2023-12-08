@@ -1,11 +1,10 @@
-import img from '../assets/img.jpg'
 import pizza from '../assets/pizza.gif'
 import heroImg from '../assets/heroImg.png'
 
 export default function Hero() {
   return (
-    <div className="flex justify-between items-center h-[calc(100vh-100px)] px-32 bg-cream">
-      <div className="w-3/5">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:h-[calc(100vh-100px)] px-8 sm:px-12 lg:px-32 bg-cream">
+      <div className="w-full lg:w-3/5">
         <h1 className="text-5xl font-semibold  font-labrada">
           Mastering Technique, <br />
           Unleashing Exquisite Flavor.
