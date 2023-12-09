@@ -27,11 +27,11 @@ export default function Testimonials() {
         <div>
           {testimonials.map((testimonial, index) => (
             <SwiperSlide
-              className="w-[250px] lg:w-[500px]  font-handlee p-4 lg:p-8 rounded-2xl border-2 border-green relative"
+              className="w-[270px] lg:w-[500px]  font-handlee p-4 lg:p-8 rounded-2xl border-2 border-green relative"
               key={index}
             >
               <img src={quote} alt="person" className="w-6 lg:w-10 mb-4" />
-              <p className="text-sm lg:text-xl h-[140px] mb-4">
+              <p className="lg:text-xl h-[190px] lg:h-[140px] mb-4">
                 {testimonial.testimonial}
               </p>
               <p className="text-lg lg:text-2xl font-bold">{testimonial.name}</p>

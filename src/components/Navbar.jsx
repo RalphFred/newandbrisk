@@ -12,7 +12,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="fixed top-0 px-4 lg:px-20 py-4 h-[100px]  w-full flex justify-between items-center bg-cream border-none">
+    <nav className="fixed z-20 top-0 px-4 lg:px-20 py-4 h-[100px]  w-full flex justify-between items-center bg-cream border-none">
       <div>
         <Link to="/" className="">
           <img src={logo} alt="logo" className="w-16 z-20" />

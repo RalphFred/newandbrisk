@@ -15,13 +15,13 @@ export default function Pricing() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-12">
         {services.map((service, index) => (
           <div
-            className="font-handlee p-8 rounded-2xl border-2 border-green"
+            className="font-handlee p-6 rounded-2xl border-2 border-green"
             key={index}
           >
             <h2 className="font-bold text-xl mb-2">
               {service.name}
             </h2>
-            <p className="text-lg mb-2 h-[140px]">
+            <p className="text-lg mb-2 h-[180px] lg:h-[150px]">
               {service.description}
             </p>
             <div className="flex justify-between">
