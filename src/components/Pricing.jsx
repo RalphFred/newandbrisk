@@ -21,7 +21,7 @@ export default function Pricing() {
             <h2 className="font-bold text-xl mb-2">
               {service.name}
             </h2>
-            <p className="text-lg mb-2 h-[180px] lg:h-[150px]">
+            <p className="text-lg mb-2 h-[200px] lg:h-[150px]">
               {service.description}
             </p>
             <div className="flex justify-between">
