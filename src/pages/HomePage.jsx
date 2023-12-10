@@ -4,8 +4,8 @@ import AboutIntro from "../components/AboutIntro"
 export default function HomePage() {
   return(
     <div className="">
-      {/* <Hero />
-      <AboutIntro /> */}
+      <Hero />
+      {/* <AboutIntro /> */}
     </div>
   )
 }
