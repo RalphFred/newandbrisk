@@ -12,9 +12,9 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="fixed z-20 top-0 px-4 lg:px-20 py-4 h-[100px]  w-full flex justify-between items-center bg-cream border-none">
+    <nav className="fixed z-20 top-0 px-4 lg:px-20 py-4 h-[80px] w-full flex justify-between items-center bg-cream border-none">
       <div>
-        <NavLink to="/">
+        <NavLink exact to="/">
           <img src={logo} alt="logo" className="w-16 z-20" />
         </NavLink>
       </div>
@@ -62,9 +62,7 @@ export default function NavBar() {
               : "py-2 px-8 ml-5  border-2 border-green rounded-full"
           }
         >
-          <li className="">
-            Contact Us
-          </li>
+          <li className="">Contact Us</li>
         </NavLink>
       </ul>
 

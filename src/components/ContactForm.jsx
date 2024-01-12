@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
+import emailjs from 'emailjs-com';
+
 import Input from "./Input";
 
 const schema = yup.object({
@@ -23,10 +25,33 @@ export default function ContactForm() {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
-    reset();
+  // const onSubmit = (data) => {
+  //   console.log(data);
+  //   reset();
+  // };
+
+  const onSubmit = async (data) => {
+    try {
+      const templateParams = {
+        from_name: data.fullName,
+        from_email: data.email,
+        message: data.message,
+      };
+
+      await emailjs.send(
+        'service_zeix9lh',
+        'template_v7mns79',
+        templateParams,
+        'yJ3fn1BX79yYj_qAm'
+      );
+
+      console.log('Email sent successfully');
+      reset(); // Reset the form after successful submission
+    } catch (error) {
+      console.error('Error sending email:', error.text);
+    }
   };
+
 
   return (
     <div className="lg:h-[100vh] pt-[112px] bg-cream flex flex-col lg:flex-row px-8 lg:px-32">
@@ -59,7 +84,7 @@ export default function ContactForm() {
             label="Email"
             type="text"
             register={{ ...register("email") }}
-            errorMessage={errors.fullName?.message}
+            errorMessage={errors.email?.message}
           />
           <div className="flex flex-col font-handlee ">
             <label className="font-bold text-xl mb-1">Message</label>
@@ -71,7 +96,7 @@ export default function ContactForm() {
             <span>{errors.message?.message}</span>
           </div>
 
-          <input type="submit" value="SUBMIT" className="w-full bg-green mt-12 py-4 text-white font-handlee font-bold text-xl rounded-lg"/>
+          <input type="submit" value="SUBMIT" className="w-full bg-green mt-12 py-4 text-white font-handlee font-bold text-xl rounded-lg cursor-pointer"/>
         </form>
       </div>
     </div>
