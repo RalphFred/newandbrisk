@@ -4,7 +4,49 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
 
 .bag{
   color: #fdfaf0;
 }
+
+.nav-link{
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  background: #7BA11F;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-active{
+  position: relative;
+}
+
+.nav-active::before{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #7BA11F;
+}
+
+

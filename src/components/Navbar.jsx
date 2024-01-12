@@ -1,7 +1,7 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 import knife from "../assets/knife.svg";
 import fork from "../assets/fork.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -14,34 +14,65 @@ export default function NavBar() {
   return (
     <nav className="fixed z-20 top-0 px-4 lg:px-20 py-4 h-[100px]  w-full flex justify-between items-center bg-cream border-none">
       <div>
-        <Link to="/" className="" >
+        <NavLink to="/">
           <img src={logo} alt="logo" className="w-16 z-20" />
-        </Link>
+        </NavLink>
       </div>
 
       {/* ------------------------- Desktop Navbar ------------------------ */}
-      <ul className="font-handlee font-bold text-xl hidden lg:flex">
-        <Link to="/">
-          <li className="py-2 mr-5 ">Home</li>
-        </Link>
-        <Link to="/about">
-          <li className="py-2 mx-5">About Us</li>
-        </Link>
-        <Link to="/gallery">
-          <li className="py-2 mx-5">Gallery</li>
-        </Link>
-        <Link to="/pricing">
-          <li className="py-2 mx-5">Services & Pricing</li>
-        </Link>
-        <Link to="/contact">
-          <li className="py-2 ml-5 border-2 border-green px-6 rounded-full">
+      <ul className="font-handlee text-xl font-semibold hidden lg:flex items-center">
+        <NavLink
+          exact
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "text-green py-2 mx-5 nav-active" : "nav-link py-2 mr-5"
+          }
+        >
+          <li className="">Home</li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "text-green py-2 mx-5 nav-active" : "nav-link py-2 mx-5"
+          }
+        >
+          <li className="">About Us</li>
+        </NavLink>
+        <NavLink
+          to="/gallery"
+          className={({ isActive }) =>
+            isActive ? "text-green py-2 mx-5 nav-active" : "nav-link py-2 mx-5"
+          }
+        >
+          <li className="">Gallery</li>
+        </NavLink>
+        <NavLink
+          to="/pricing"
+          className={({ isActive }) =>
+            isActive ? "text-green py-2 mx-5" : "nav-link py-2 mx-5"
+          }
+        >
+          <li className="">Services & Pricing</li>
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive
+              ? "text-white bg-green border-green border-2 rounded-full py-2 px-8 ml-5 "
+              : "py-2 px-8 ml-5  border-2 border-green rounded-full"
+          }
+        >
+          <li className="">
             Contact Us
           </li>
-        </Link>
+        </NavLink>
       </ul>
 
       {/* -------------------------------- Mobile Navbar -------------------------------- */}
-      <div className="block lg:hidden h-[35px] w-[45px] relative z-20" onClick={handleClick}>
+      <div
+        className="block lg:hidden h-[35px] w-[45px] relative z-20"
+        onClick={handleClick}
+      >
         <img
           src={fork}
           alt="fork"
@@ -58,24 +89,30 @@ export default function NavBar() {
         />
       </div>
 
-      <ul className={`fixed lg:hidden w-full h-screen bg-cream top-0 z-10 flex flex-col items-center justify-center ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'} transition-opacity duration-500 ease-in-out`}>
-        <Link to="/" onClick={handleClick}>
+      <ul
+        className={`fixed lg:hidden w-full h-screen bg-cream top-0 z-10 flex flex-col items-center justify-center ${
+          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+        } transition-opacity duration-500 ease-in-out`}
+      >
+        <NavLink to="/" onClick={handleClick}>
           <li className="font-handlee text-3xl font-bold px-8 mb-8">Home</li>
-        </Link>
-        <Link to="/about" onClick={handleClick}>
-          <li className="font-handlee text-3xl font-bold px-8 mb-8">About Us</li>
-        </Link>
-        <Link to="/gallery" onClick={handleClick}>
-          <li className="font-handlee text-3xl font-bold px-8 mb-8">Gallery</li>
-        </Link>
-        <Link to="/pricing" onClick={handleClick}>
-          <li className="font-handlee text-3xl font-bold px-8 mb-8">Services & Pricing</li>
-        </Link>
-        <Link to="/contact" onClick={handleClick}>
-          <li className="font-handlee text-3xl font-bold px-8">
-            Contact Us
+        </NavLink>
+        <NavLink to="/about" onClick={handleClick}>
+          <li className="font-handlee text-3xl font-bold px-8 mb-8">
+            About Us
           </li>
-        </Link>
+        </NavLink>
+        <NavLink to="/gallery" onClick={handleClick}>
+          <li className="font-handlee text-3xl font-bold px-8 mb-8">Gallery</li>
+        </NavLink>
+        <NavLink to="/pricing" onClick={handleClick}>
+          <li className="font-handlee text-3xl font-bold px-8 mb-8">
+            Services & Pricing
+          </li>
+        </NavLink>
+        <NavLink to="/contact" onClick={handleClick}>
+          <li className="font-handlee text-3xl font-bold px-8">Contact Us</li>
+        </NavLink>
       </ul>
     </nav>
   );

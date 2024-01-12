@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'green': '#339115',
+        'green': '#7BA11F',
         'cream' : '#FDF7E4',
       },
       backgroundColor: {
-        'green': '#339115',
+        'green': '#7BA11F',
         'cream' : '#fdfaf0',
       },
       fontFamily: {

@@ -12,12 +12,12 @@ import { Pagination, Autoplay } from "swiper/modules";
 export default function Testimonials() {
   return (
     <div className="px-8 py-8 lg:px-32 lg:py-20 bg-cream">
-      <h1 className="font-labrada text-5xl font-bold mb-12">Testimonials</h1>
+      <h1 className="font-labrada text-5xl font-bold mb-16">Testimonials</h1>
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={30}
         autoplay={{
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         loop={true}

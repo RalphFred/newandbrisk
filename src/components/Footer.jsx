@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo1.png";
 import instagram from "../assets/instagram.svg";
 import location from "../assets/location.svg";
 import facebook from "../assets/facebook.svg";
@@ -21,10 +21,9 @@ export default function Footer() {
             Buzango NEPA Road. Kubwa, Abuja
           </p>
         </div>
-        <div className="flex justify-between items-start w-[150px] ">
+        <div className="flex justify-between items-start w-[100px] ">
           <img src={instagram} alt="" className="w-5 lg:w-8" />
           <img src={facebook} alt="" className="w-5 lg:w-8" />
-          <img src={twitter} alt="" className="w-5 lg:w-8" />
         </div>
       </div>
       <ul className="hidden lg:flex justify-between font-handlee font-bold text-xl">
