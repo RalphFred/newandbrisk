@@ -92,23 +92,33 @@ export default function NavBar() {
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         } transition-opacity duration-500 ease-in-out`}
       >
-        <NavLink to="/" onClick={handleClick}>
+        <NavLink to="/" onClick={handleClick} className={({ isActive }) =>
+            isActive ? "text-green" : ""
+          }>
           <li className="font-handlee text-3xl font-bold px-8 mb-8">Home</li>
         </NavLink>
-        <NavLink to="/about" onClick={handleClick}>
+        <NavLink to="/about" onClick={handleClick} className={({ isActive }) =>
+            isActive ? "text-green" : ""
+          }>
           <li className="font-handlee text-3xl font-bold px-8 mb-8">
             About Us
           </li>
         </NavLink>
-        <NavLink to="/gallery" onClick={handleClick}>
+        <NavLink to="/gallery" onClick={handleClick} className={({ isActive }) =>
+            isActive ? "text-green" : ""
+          }>
           <li className="font-handlee text-3xl font-bold px-8 mb-8">Gallery</li>
         </NavLink>
-        <NavLink to="/pricing" onClick={handleClick}>
+        <NavLink to="/pricing" onClick={handleClick} className={({ isActive }) =>
+            isActive ? "text-green" : ""
+          }>
           <li className="font-handlee text-3xl font-bold px-8 mb-8">
             Services & Pricing
           </li>
         </NavLink>
-        <NavLink to="/contact" onClick={handleClick}>
+        <NavLink to="/contact" onClick={handleClick} className={({ isActive }) =>
+            isActive ? "text-green" : ""
+          }>
           <li className="font-handlee text-3xl font-bold px-8">Contact Us</li>
         </NavLink>
       </ul>

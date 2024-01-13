@@ -2,10 +2,10 @@ import link from '../assets/link.svg'
 
 export default function Pricing() {
   return (
-    <div className="pt-[112px] px-8 pb-20 lg:px-32 bg-cream border-none">
+    <div className="pt-[112px] px-8 sm:px-16 pb-20 lg:px-32 bg-cream border-none">
       <h1 className="font-labrada font-bold text-5xl mb-16">Services & Pricing</h1>
-      <div className="flex flex-col lg:flex-row gap-12 justify-around items-center">
-        <div className="border-2 border-green w-full lg:w-[350px] p-8 rounded-3xl text-center">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="border-2 border-green w-full md:w-[300px] lg:w-[350px] p-8 rounded-3xl text-center">
           <button className="border-2 border-green rounded-md px-2 py-1 font-bold font-handlee mb-4 text-lg">01</button>
           <h4 className="font-handlee font-bold mb-2">Apprenticeship Class</h4>
           <h1 className="font-handlee font-bold text-4xl mb-4">₦100,000<span className="text-sm">NGN</span></h1>
@@ -21,7 +21,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="border-2 border-green w-full lg:w-[350px] p-8 rounded-3xl text-center">
+        <div className="border-2 border-green w-full md:w-[300px] lg:w-[350px] p-8 rounded-3xl text-center">
           <button className="border-2 border-green rounded-md px-2 py-1 font-bold font-handlee mb-4 text-lg">02</button>
           <h4 className="font-handlee font-bold mb-2">Food Enthisiast</h4>
           <h1 className="font-handlee font-bold text-4xl mb-4">₦200,000<span className="text-sm">NGN</span></h1>
@@ -37,7 +37,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="border-2 border-green w-full lg:w-[350px] p-8 rounded-3xl text-center">
+        <div className="border-2 border-green w-full md:w-[300px] lg:w-[350px] p-8 rounded-3xl text-center">
           <button className="border-2 border-green rounded-md px-2 py-1 font-bold font-handlee mb-4 text-lg">03</button>
           <h4 className="font-handlee font-bold mb-2">Professional Home</h4>
           <h1 className="font-handlee font-bold text-4xl mb-4">₦350,000<span className="text-sm">NGN</span></h1>
