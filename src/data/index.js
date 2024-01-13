@@ -100,94 +100,94 @@ const testimonials = [
 
 const images = [
   {
-    src: '../../src/assets/img1.jpg',
+    src: '/src/assets/img1.jpg',
   },
   {
-    src: '../../src/assets/img2.jpg',
+    src: '/src/assets/img2.jpg',
   },
   {
-    src: '../../src/assets/img3.jpg',
+    src: '/src/assets/img3.jpg',
   },
   {
-    src: '../../src/assets/img4.jpg',
+    src: '/src/assets/img4.jpg',
   },
   {
-    src: '../../src/assets/img5.jpg',
+    src: '/src/assets/img5.jpg',
   },
   {
-    src: '../../src/assets/img6.jpg',
+    src: '/src/assets/img6.jpg',
   },
   {
-    src: '../../src/assets/img7.jpg',
+    src: '/src/assets/img7.jpg',
   },
   {
-    src: '../../src/assets/img8.jpg',
+    src: '/src/assets/img8.jpg',
   },
   {
-    src: '../../src/assets/img9.jpg',
+    src: '/src/assets/img9.jpg',
   },
   {
-    src: '../../src/assets/img10.jpg',
+    src: '/src/assets/img10.jpg',
   },
   {
-    src: '../../src/assets/img11.jpg',
+    src: '/src/assets/img11.jpg',
   },
   {
-    src: '../../src/assets/img12.jpg',
+    src: '/src/assets/img12.jpg',
   },
   {
-    src: '../../src/assets/img13.jpg',
+    src: '/src/assets/img13.jpg',
   },
   {
-    src: '../../src/assets/img14.jpg',
+    src: '/src/assets/img14.jpg',
   },
   {
-    src: '../../src/assets/img15.jpg',
+    src: '/src/assets/img15.jpg',
   },
   {
-    src: '../../src/assets/img16.jpg',
+    src: '/src/assets/img16.jpg',
   },
   {
-    src: '../../src/assets/img17.jpg',
+    src: '/src/assets/img17.jpg',
   },
   {
-    src: '../../src/assets/img18.jpg',
+    src: '/src/assets/img18.jpg',
   },
   {
-    src: '../../src/assets/img25.jpg',
+    src: '/src/assets/img25.jpg',
   },
   {
-    src: '../../src/assets/img20.jpg',
+    src: '/src/assets/img20.jpg',
   },
   {
-    src: '../../src/assets/img21.jpg',
+    src: '/src/assets/img21.jpg',
   },
   {
-    src: '../../src/assets/img22.jpg',
+    src: '/src/assets/img22.jpg',
   },
   {
-    src: '../../src/assets/img23.jpg',
+    src: '/src/assets/img23.jpg',
   },
   {
-    src: '../../src/assets/img19.jpg',
+    src: '/src/assets/img19.jpg',
   },
   {
-    src: '../../src/assets/img24.jpg',
+    src: '/src/assets/img24.jpg',
   },
   {
-    src: '../../src/assets/img26.jpg',
+    src: '/src/assets/img26.jpg',
   },
   {
-    src: '../../src/assets/img27.jpg',
+    src: '/src/assets/img27.jpg',
   },
   {
-    src: '../../src/assets/img30.jpg',
+    src: '/src/assets/img30.jpg',
   },
   {
-    src: '../../src/assets/img29.jpg',
+    src: '/src/assets/img29.jpg',
   },
   {
-    src: '../../src/assets/img28.jpg',
+    src: '/src/assets/img28.jpg',
   },
 ]
 
