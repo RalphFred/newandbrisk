@@ -2,12 +2,12 @@ import founder from "../assets/founder.jpg";
 
 export default function Founder() {
   return (
-    <div className="px-8 py-8 lg:pb-12 lg:px-32 bg-cream flex flex-col-reverse lg:flex-row items-center">
-      <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
-        <img src={founder} className="w-full lg:w-4/5 lg:h-[600px]" />
+    <div className="px-8 py-8 sm:px-16 lg:pb-12 lg:px-32 bg-cream flex flex-col-reverse lg:flex-row items-center">
+      <div className="w-full lg:w-1/2 mb-12 lg:mb-0 flex md:justify-center lg:justify-start">
+        <img src={founder} className="w-full sm:w-4/5 lg:h-[600px]" />
       </div>
       <div className="w-full lg:w-1/2 font-handlee text-xl">
-        <p className="mb-4">
+        <p className="mb-12 lg:mb-0">
           Meet <span className="font-semibold">CHEF NANA</span>
           , the esteemed <span className="font-bold">FOUNDER</span> and
           dedicated <span className="bold">CEO</span> of{" "}

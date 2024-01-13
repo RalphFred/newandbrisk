@@ -1,6 +1,6 @@
 export default function About() {
   return(
-    <div className="px-8 py-8 lg:pb-12 pt-[112px] lg:px-32 bg-cream">
+    <div className="px-8 py-12 sm:px-16 lg:pb-12 pt-[112px] lg:px-32 bg-cream">
       <h1 className="font-labrada text-5xl font-bold mb-6">About Us</h1>
       <p className="font-handlee text-xl mb-3">Welcome to New and Brisk Culinary, a premier institution where culinary artistry and innovation converge. Our vibrant school is dedicated to nurturing aspiring chefs through programs that blend tradition with contemporary techniques.</p>
 

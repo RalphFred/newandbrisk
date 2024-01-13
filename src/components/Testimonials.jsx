@@ -11,7 +11,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Testimonials() {
   return (
-    <div className="px-8 py-20 lg:px-32 lg:py-20 bg-cream">
+    <div className="px-8 py-20 sm:px-16 lg:px-32 lg:py-20 bg-cream">
       <h1 className="font-labrada text-5xl font-bold mb-16">Testimonials</h1>
       <Swiper
         slidesPerView={"auto"}

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center lg:h-[100vh] pt-[125px] lg:pt-[100px] px-8 sm:px-12 lg:px-32 bg-cream">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:h-[100vh] pt-[125px] lg:pt-[100px] px-8 sm:px-16 lg:px-32 bg-cream">
       <div className="w-full lg:w-3/5">
         <h1 className="text-4xl md:text-7xl lg:text-6xl font-bold  font-labrada">
           Mastering Technique, <br />
