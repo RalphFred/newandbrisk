@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export default function AboutIntro() {
   return (
     <div className="flex items-center flex-col-reverse lg:flex-row px-8 py-20 lg:px-24 lg:py-16 bg-cream">
-      <div className="w-full lg:w-1/2 relative mt-12 lg:mt-0 flex md:justify-center lg:justify-start">
-        <img src={introImg} alt="img" className="md:h-[550px] w-full md:w-3/5 lg:w-4/5" />
+      <div className="w-full lg:w-1/2 relative mt-20 lg:mt-0 flex md:justify-center lg:justify-start">
+        <img src={introImg} alt="img" className="md:h-[550px] lg:w-4/5" />
       </div>
       <div className="lg:w-1/2">
         <h1 className="text-5xl font-labrada font-semibold">About Us</h1>

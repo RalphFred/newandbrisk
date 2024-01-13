@@ -13,7 +13,7 @@ export default function Hero() {
           Unleashing Exquisite Flavor.
         </h1>
 
-        <div className="my-8 md:my-16 lg:my-12 flex items-center">
+        <div className="my-16 lg:my-12 flex items-center">
           <Link to="/contact">
             <button className="font-handlee font-bold bg-green text-white px-6 py-3 md:py-4 md:px-10 rounded-full text-xl">
               Contact Us
@@ -21,7 +21,7 @@ export default function Hero() {
           </Link>
 
           <Link to="/about">
-            <div className="flex items-center ml-4 md:ml-12">
+            <div className="flex items-center ml-8 md:ml-12">
               <button className="inline-block text-green font-handlee font-bold text-xl duration-200 mr-2 hover:mr-4">
                 About Us
               </button>
@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full lg:w-2/5 mt-16 lg:mt-0 flex justify-center lg:justify-end">
-        <img src={heroImg} className="w-4/5 md:h-[600px]" />
+        <img src={heroImg} className="md:w-4/5 md:h-[600px]" />
       </div>
     </div>
   );

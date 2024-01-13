@@ -11,7 +11,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Testimonials() {
   return (
-    <div className="px-8 py-8 lg:px-32 lg:py-20 bg-cream">
+    <div className="px-8 py-20 lg:px-32 lg:py-20 bg-cream">
       <h1 className="font-labrada text-5xl font-bold mb-16">Testimonials</h1>
       <Swiper
         slidesPerView={"auto"}
@@ -27,7 +27,7 @@ export default function Testimonials() {
         <div>
           {testimonials.map((testimonial, index) => (
             <SwiperSlide
-              className="w-[270px] lg:w-[500px]  font-handlee p-4 lg:p-8 rounded-2xl border-2 border-green relative"
+              className="w-[270px] md:w-[350px] lg:w-[500px]  font-handlee p-4 lg:p-8 rounded-2xl border-2 border-green relative"
               key={index}
             >
               <img src={quote} alt="person" className="w-6 lg:w-10 mb-4" />
