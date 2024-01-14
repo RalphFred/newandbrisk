@@ -30,9 +30,9 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className="mt-8 w-full h-[180px] md:h-[300px] lg:h-[250px] bg-green rounded-full">
+        {/* <div className="mt-8 w-full h-[180px] md:h-[300px] lg:h-[250px] bg-green rounded-full">
           <img src={pizza} className="w-full h-[180px] md:h-[300px] lg:h-[250px] bg-green rounded-full" />
-        </div>
+        </div> */}
       </div>
       <div className="w-full lg:w-2/5 mt-16 lg:mt-0 flex justify-center lg:justify-end">
         <img src={heroImg} className="md:w-4/5 md:h-[600px]" />
