@@ -100,94 +100,94 @@ const testimonials = [
 
 const images = [
   {
-    src: '/src/assets/img1.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img1.jpg?alt=media&token=6dc15c5d-9822-444a-a228-24b29234bf21',
   },
   {
-    src: '/src/assets/img2.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img10.jpg?alt=media&token=55e6229f-f39d-49c2-a866-44ef294fa3cf',
   },
   {
-    src: '/src/assets/img3.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img11.jpg?alt=media&token=7ab3bc6f-390a-4992-b307-93c18d769fc5',
   },
   {
-    src: '/src/assets/img4.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img19.jpg?alt=media&token=ca3d4915-cca4-4f4c-a5f3-b98f8b7120fd',
   },
   {
-    src: '/src/assets/img5.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img18.jpg?alt=media&token=aee178ca-5ac7-474c-8e35-f1f60d49371f',
   },
   {
-    src: '/src/assets/img6.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img17.jpg?alt=media&token=bb8f7f2d-76dd-4435-9160-ed8bf80b4d8e',
   },
   {
-    src: '/src/assets/img7.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img16.jpg?alt=media&token=e575d661-8602-41a5-870e-85499c70d128',
   },
   {
-    src: '/src/assets/img8.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img15.jpg?alt=media&token=3f3d6bb2-5fc1-4d52-a27e-5a9ca5e5066e',
   },
   {
-    src: '/src/assets/img9.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img14.jpg?alt=media&token=9c6a36bf-8953-4afb-aa78-d903de76a5e8',
   },
   {
-    src: '/src/assets/img10.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img13.jpg?alt=media&token=d7c6f76a-f763-4e21-9ecb-84f1c8e954d2',
   },
   {
-    src: '/src/assets/img11.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img12.jpg?alt=media&token=86108875-d7a0-4a6f-9f5c-7bea86801faf',
   },
   {
-    src: '/src/assets/img12.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img20.jpg?alt=media&token=81aab7d6-088e-4a16-a361-88e3f764fbb2',
   },
   {
-    src: '/src/assets/img13.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img2.jpg?alt=media&token=e7e70e55-5c02-46e9-8418-e544d124782e',
   },
   {
-    src: '/src/assets/img14.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img3.jpg?alt=media&token=e6b8f87f-af55-4e6e-bf01-913d1ae4c55e',
   },
   {
-    src: '/src/assets/img15.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img29.jpg?alt=media&token=d991cbfa-f34f-4bbb-9fbd-31afa715d9bc',
   },
   {
-    src: '/src/assets/img16.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img28.jpg?alt=media&token=7a1667f6-1763-4814-85e1-33ec6bb5fb53',
   },
   {
-    src: '/src/assets/img17.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img27.jpg?alt=media&token=375ac0fa-9fc4-4f6a-8329-9281f54d4c0d',
   },
   {
-    src: '/src/assets/img18.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img26.jpg?alt=media&token=debd71b5-558a-4238-8908-b37131f52998',
   },
   {
-    src: '/src/assets/img25.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img25.jpg?alt=media&token=86aaea7b-06f1-4b42-904f-5a4055c66dfd',
   },
   {
-    src: '/src/assets/img20.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img24.jpg?alt=media&token=f32ef2c8-6921-4ff6-bcfb-4e1e68416cb8',
   },
   {
-    src: '/src/assets/img21.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img23.jpg?alt=media&token=de6a8409-f98d-411e-9f41-86762a1bd0d9',
   },
   {
-    src: '/src/assets/img22.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img22.jpg?alt=media&token=282937b7-210e-4d3e-9774-ee8e5569ebba',
   },
   {
-    src: '/src/assets/img23.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img21.jpg?alt=media&token=88a65928-dfac-40d9-b9c2-52236f7a0e91',
   },
   {
-    src: '/src/assets/img19.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img9.jpg?alt=media&token=f72368c8-dcfc-4a87-a28e-b02fa5dfafea',
   },
   {
-    src: '/src/assets/img24.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img8.jpg?alt=media&token=e0df0be8-e0bd-46b7-9516-b512673e9feb',
   },
   {
-    src: '/src/assets/img26.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img7.jpg?alt=media&token=5942c569-554f-45ca-bdb3-91847573498a',
   },
   {
-    src: '/src/assets/img27.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img6.jpg?alt=media&token=31f190ba-fb47-4393-be67-7188835e1087',
   },
   {
-    src: '/src/assets/img30.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img5.jpg?alt=media&token=3940c68e-d04b-4dce-a347-dd2e617e5f44',
   },
   {
-    src: '/src/assets/img29.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img4.jpg?alt=media&token=bb18741f-6b3c-4cd3-a7d9-0b11950677eb',
   },
   {
-    src: '/src/assets/img28.jpg',
+    src: 'https://firebasestorage.googleapis.com/v0/b/neandbrisk.appspot.com/o/img30.jpg?alt=media&token=228afeee-3c03-4b36-9c04-e6515f4bc698',
   },
 ]
 
