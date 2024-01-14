@@ -1,6 +1,6 @@
 import pizza from "../assets/pizza.gif";
 import rarrow from "../assets/rarrow.svg";
-import heroImg from "../assets/heroImg.png";
+import heroImg from "../assets/heroImg.svg";
 
 import { Link } from "react-router-dom";
 
@@ -35,7 +35,7 @@ export default function Hero() {
         </div> */}
       </div>
       <div className="w-full lg:w-2/5 mt-16 lg:mt-0 flex justify-center lg:justify-end">
-        <img src={heroImg} className="md:w-4/5 md:h-[600px]" />
+        <img src={heroImg} className="md:h-[600px]" />
       </div>
     </div>
   );
