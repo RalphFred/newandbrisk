@@ -49,7 +49,7 @@ export default function NavBar() {
         <NavLink
           to="/pricing"
           className={({ isActive }) =>
-            isActive ? "text-green py-2 mx-5" : "nav-link py-2 mx-5"
+            isActive ? "text-green py-2 mx-5 nav-active" : "nav-link py-2 mx-5"
           }
         >
           <li className="">Services & Pricing</li>

@@ -35,7 +35,7 @@ export default function Hero() {
         </div> */}
       </div>
       <div className="w-full lg:w-2/5 mt-16 lg:mt-0 flex justify-center lg:justify-end">
-        <img src={heroImg} className="md:h-[600px]" />
+        <img src={heroImg} className="w-full md:h-[600px]" />
       </div>
     </div>
   );
